@@ -1,0 +1,21 @@
+{
+  "name": "graphql-rescript-port",
+  "version": "0.1.0",
+  "sources": {
+    "dir" : "src",
+    "subdirs" : true
+  },
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+  "namespace": true,
+  "bs-dependencies": [
+    "rescript",
+    "@glennsl/rescript-jest"
+  ],
+  "bsc-flags": ["-bs-super-errors"],
+  "reason": {"react-jsx": 3},
+  "refmt": 3
+}
